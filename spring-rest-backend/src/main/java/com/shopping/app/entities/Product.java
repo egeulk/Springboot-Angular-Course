@@ -50,6 +50,4 @@ public class Product {
     @UpdateTimestamp
     private Date lastUpdated;
 
-    @Column(name="category_id")
-    private Long categoryId;
 }
